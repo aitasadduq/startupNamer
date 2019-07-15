@@ -9,7 +9,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Startup Name Generator',
-//      theme: ThemeData(
+      theme: ThemeData(
+        primaryColor: Colors.white,
 //        // This is the theme of your application.
 //        //
 //        // Try running your application with "flutter run". You'll see the
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
 //        // Notice that the counter didn't reset back to zero; the application
 //        // is not restarted.
 //        primarySwatch: Colors.blue,
-//      ),
+      ),
       home: RandomWords(),
     );
   }
